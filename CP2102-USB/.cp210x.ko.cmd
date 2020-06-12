@@ -1,0 +1,1 @@
+cmd_/home/amityoshi/Downloads/CP2102-USB/cp210x.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/amityoshi/Downloads/CP2102-USB/cp210x.ko /home/amityoshi/Downloads/CP2102-USB/cp210x.o /home/amityoshi/Downloads/CP2102-USB/cp210x.mod.o;  true
